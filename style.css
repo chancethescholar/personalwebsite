@@ -85,7 +85,7 @@
   padding: 70px;
 }
 
-.reserve, .local, .bookit, .hydrotask
+.reserve, .local, .bookit, .personalweb, .hydrotask
 {
   background-color: transparent;
   padding: 20px;
@@ -95,7 +95,7 @@
 }
 
 /* This container is needed to position the front and back side */
-.reserve-inner, .local-inner, .bookit-inner, .hydrotask-inner
+.reserve-inner, .local-inner, .bookit-inner, .personalweb-inner, .hydrotask-inner
 {
   position: absolute;
   width: 100%;
@@ -108,13 +108,13 @@
 }
 
 /* Do an horizontal flip when you move the mouse over the flip box container */
-.reserve:hover .reserve-inner, .local:hover .local-inner, .bookit:hover .bookit-inner, .hydrotask:hover .hydrotask-inner
+.reserve:hover .reserve-inner, .local:hover .local-inner, .bookit:hover .bookit-inner, .personalweb:hover .personalweb-inner, .hydrotask:hover .hydrotask-inner
 {
   transform: rotateY(180deg);
 }
 
 /* Position the front and back side */
-.reserve-front, .reserve-back, .local-front, .local-back, .bookit-front, .bookit-back, .hydrotask-front, .hydrotask-back
+.reserve-front, .reserve-back, .local-front, .local-back, .bookit-front, .bookit-back, .personalweb-back, .personalweb-front, .hydrotask-front, .hydrotask-back
 {
   position: absolute;
   width: 100%;
@@ -126,7 +126,7 @@
 }
 
 /* Style the front side (fallback if image is missing) */
-.reserve-front, .local-front, .bookit-front, .hydrotask-front
+.reserve-front, .local-front, .bookit-front, .personalweb-front, .hydrotask-front
 {
   background-color: coral;
   color: white;
@@ -134,14 +134,14 @@
 }
 
 /* Style the back side */
-.reserve-back, .local-back, .bookit-back, .hydrotask-back
+.reserve-back, .local-back, .bookit-back, .personalweb-back, .hydrotask-back
 {
   background-color: coral;
   color: white;
   transform: rotateY(180deg);
 }
 
-.reservecode, .localcode, .localdemo, .bookitcode, .download
+.reservecode, .localcode, .localdemo, .bookitcode, .personalwebcode, .download
 {
   background-color: transparent;
   border: 2px solid white;
@@ -156,7 +156,7 @@
   margin: 4px 2px;
 }
 
-.reservecode:hover, .localcode:hover, .localdemo:hover, .bookitcode:hover, .download:hover, .downloadresume:hover
+.reservecode:hover, .localcode:hover, .localdemo:hover, .bookitcode:hover, .personalwebcode:hover, .download:hover, .downloadresume:hover
 {
   background-color: #66d3fa;
 }
@@ -171,7 +171,7 @@
 {
   float: left;
   width: 25%;
-  padding: 0 20px;
+  padding: 0 50px;
 }
 
 /* Remove extra left and right margins, due to padding in columns */
