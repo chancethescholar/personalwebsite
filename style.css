@@ -21,23 +21,6 @@
   zoom: 1.0 ;
 }
 
-@-ms-viewport
-{
-  width: device-width ;
-}
-
-@media screen and (max-width:320px) {
- /* CSS for screens that are 320 pixels or less will be put in this section */
- width: 120px ;
-}
-
-@media screen and (min-width:320px) and (max-width:640px) {
-  width: 480px ;
-  /* for screens that are at least 320 pixels wide but less than or equal to 640 pixels wide */
-}
-
-
-
 .main-nav
 {
   float: left;
