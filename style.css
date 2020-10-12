@@ -9,16 +9,16 @@
   font-family: GlacialIndifference;
   src: url('webfontkit-20201010-220058-regular/glacialindifference-regular-webfont.woff');
 }
+*
+{
+  margin: 0;
+  padding: 0;
+}
 
 @viewport
 {
   width: device-width ;
   zoom: 1.0 ;
-}
-*
-{
-  margin: 0;
-  padding: 0;
 }
 
 .main-nav
@@ -243,6 +243,56 @@
   background-size: cover;
 }
 
+.emailimg
+{
+  margin-top: 100px;
+  margin-left: 200px;
+}*/
+
+.email
+{
+  color: white;
+  font-family: Glacial Indifference;
+  font-size: 20pt;
+}
+
+.linkedinimg
+{
+  margin-top: 100px;
+  margin-left: 160px;
+}
+
+.linkedin
+{
+  color: white;
+  font-family: Glacial Indifference;
+  font-size: 20pt;
+}
+
+.githubimg
+{
+  margin-top: 100px;
+  margin-left: 160px;
+}
+
+.column1 {
+  float: left;
+  width: 30%;
+  padding: 5px;
+}
+
+/* Clear floats after image containers */
+.row1::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
 html {
   scroll-behavior: smooth;
+}
+
+.contact
+{
+  background-color: #cea5df;
 }
