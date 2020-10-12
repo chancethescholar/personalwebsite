@@ -236,7 +236,7 @@
 
 .contact
 {
-
+  background-color: #cea5df;
   height: 64%;
   background-position: center;
   background-repeat: no-repeat;
@@ -290,9 +290,4 @@
 
 html {
   scroll-behavior: smooth;
-}
-
-.contact
-{
-  background-color: #cea5df;
 }
