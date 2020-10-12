@@ -46,12 +46,29 @@
       </form>
 
     <div class = "contact" style = "max-width" id = "contact">
-      <img src = "pictures/contact.png" height = "108%" alt = "contact" usemap = "#contactmap"/>
-        <map name = "contactmap">
-          <area shape = "circle" coords = "279,376,65" href = "mailto: chanceonyiorah@gmail.com">
-          <area shape = "circle" coords = "720,376,65" href = "https://linkedin.com/in/chance-onyiorah-68624b190">
-          <area shape = "circle" coords = "1165,377,66" href = "https://github.com/chancethescholar">
-        </map>
+            <h1 style = "font-size: 100px; text-align: center; font-family: GlacialIndifferenceBold; color: white;";>Contact</h1>
+
+          <div class="row1">
+            <div class="column1">
+              <a href = "mailto: chanceonyiorah@gmail.com"><img class = "emailimg" src = "pictures/email.png" height = 100px width = 140px></a>
+              <h1 class = "email" style = "margin-left: 235px; color: white;
+              font-family: Glacial Indifference;
+              font-size: 20pt;">email</h1>
+            </div>
+            <div class="column1">
+              <a href = "https://linkedin.com/in/chance-onyiorah-68624b190"><img class = "linkedinimg" src = "pictures/linkedin.png" height = 100px width = 140px></a>
+              <h1 class = "linkedin" style = "margin-left: 185px; color: white;
+              font-family: Glacial Indifference;
+              font-size: 20pt;">linkedin</h1>
+            </div>
+            <div class="column1">
+              <a href = "https://github.com/chancethescholar"><img class = "githubimg" src = "pictures/github.png" height = 100px width = 180px></a>
+              <h1 class = "github" style = "margin-left: 210px; color: white;
+              font-family: Glacial Indifference;
+              font-size: 20pt;">github</h1>
+            </div>
+          </div>
+
     </div>
 
   </header>
