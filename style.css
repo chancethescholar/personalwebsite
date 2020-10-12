@@ -9,6 +9,12 @@
   font-family: GlacialIndifference;
   src: url('webfontkit-20201010-220058-regular/glacialindifference-regular-webfont.woff');
 }
+
+@viewport
+{
+  width: device-width ;
+  zoom: 1.0 ;
+}
 *
 {
   margin: 0;
