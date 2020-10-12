@@ -46,7 +46,7 @@
       </form>
 
     <div class = "contact" style = "max-width" id = "contact">
-            <h1 style = "font-size: 100px; text-align: center; font-family: GlacialIndifferenceBold; color: white;";>Contact</h1>
+            <br><br><br><h1 style = "font-size: 100px; text-align: center; font-family: GlacialIndifferenceBold; color: white;";>Contact</h1>
 
           <div class="row1">
             <div class="column1">
