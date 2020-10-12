@@ -1,86 +1,132 @@
-<html>
 <head>
-  <title>Chance Onyiorah Personal Website</title>
+  <title>Software Projects</title>
   <link href = "style.css" rel = "stylesheet" type = "text/css">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 
-<body>
+<body style = "background-color: #ffcc66">
   <header>
     <div class = "row">
       <ul class = "main-nav">
-        <li><a href = "#home"> Home </a></li>
-        <li><a href = "#about"> About </a></li>
-        <li><a href = "#projects"> Projects </a></li>
-        <li><a href = "#resume"> Resume </a></li>
-        <li><a href = "#contact"> Contact </a></li>
+        <li><a href = "index.html"> Home </a></li>
+        <li><a href = "index.html#about"> About </a></li>
+        <li><a href = "index.html#projects"> Projects </a></li>
+        <li><a href = "index.html#resume"> Resume </a></li>
+        <li><a href = "index.html#contact"> Contact </a></li>
       </ul>
     </div>
 
-    <div class = "home" style = "max-width" id = "home">
+
+    <div>
+      <h1 class = "heading" style = "font-family: GlacialIndifferenceBold;">Software Projects</h1>
     </div>
 
-    <div class = "about" id = "about" style = "max-width">
-      <img src = "pictures/about.png" class = "aboutpic">
-      <h1 style = "font-size: 100px; text-align: center; font-family: GlacialIndifferenceBold";><br>About Me</h1>
-      <body style = "font-size: 50px; text-align: center; font-family: GlacialIndifference";
-      >My name is Chance Onyiorah.<br>I am a second year student at the University of Florida majoring in computer science.<br>I aspire to become a web developer in the future.</body>
-    </div><br><br>
-
-    <div class = "projects" id = "projects" style = "max-width">
-      <br><h1 style = "font-size: 100px; text-align: center; font-family: GlacialIndifferenceBold; color: white;";>Projects</h1>
-      <div class="row2">
-        <div class="column2">
-          <a href = "software.html"><img src = "pictures/software.png" style = "padding: 50px" height = 500px width = 500px></a>
+<div class = "row">
+  <div class = "column">
+    <div class = "personalweb">
+      <div class = "personalweb-inner">
+        <div class = "personalweb-front">
+          <h1 style = "font-family: Comic Sans MS; padding: 80px;">Personal Website</h1>
         </div>
-        <div class="column2">
-          <a href = "other.html"><img src = "pictures/other.png" style = "padding: 50px" height = 525px width = 525px></a>
+        <div class = "personalweb-back">
+          <p style = "font-family: Comic Sans MS; padding: 25px;">My personal website</p>
+          <img style = "padding: 0px" src = "pictures/html.png" alt = node height = 80px width = 80px>
+          <img style = "padding: 0px" src = "pictures/css.png" alt = express height = 80px width = 80px>
+          <div style = "font-family: Comic Sans MS; padding: 5px;">
+            <form action = "https://github.com/chancethescholar/personalwebsite">
+              <button class = "personalwebcode" type = "submit">See Code</button>
+            </form>
+          </div>
         </div>
       </div>
     </div>
+  </div>
 
-    <div class = "resume" style = "max-width" id = "resume">
-      <br><br>
-      <h1 style = "font-size: 100px; text-align: center; font-family: GlacialIndifferenceBold";>Resume</h1>
-      <br><br>
-      <h3 style = "font-size: 25px; text-align: center; font-family: GlacialIndifference";>Click to download my resume.</h3>
-      <br><br><br>
-
-      <form method = "get" action = "Resume.pdf" style = "text-align: center;">
-        <div class="container">
-          <div class="vertical-center">
-            <button class = "downloadresume" type = "submit">Download Resume</button>
-            <br><br><br><br>
-          </div></div>
-      </form>
-    </div>
-
-
-    <div class = "contact" style = "max-width" id = "contact">
-            <br><h1 style = "font-size: 100px; text-align: center; font-family: GlacialIndifferenceBold; color: white;";>Contact</h1>
-
-          <div class="row1">
-            <div class="column1">
-              <a href = "mailto: chanceonyiorah@gmail.com"><img class = "emailimg" src = "pictures/email.png" height = 100px width = 140px></a>
-              <h1 class = "email" style = "margin-left: 200px; color: white;
-              font-family: Glacial Indifference;
-              font-size: 20pt;">email</h1>
-            </div>
-            <div class="column1">
-              <a href = "https://linkedin.com/in/chance-onyiorah-68624b190"><img class = "linkedinimg" src = "pictures/linkedin.png" height = 100px width = 140px></a>
-              <h1 class = "linkedin" style = "margin-left: 170px; color: white;
-              font-family: Glacial Indifference;
-              font-size: 20pt;">linkedin</h1>
-            </div>
-            <div class="column1">
-              <a href = "https://github.com/chancethescholar"><img class = "githubimg" src = "pictures/github.png" height = 100px width = 180px></a>
-              <h1 class = "github" style = "margin-left: 160px; color: white;
-              font-family: Glacial Indifference;
-              font-size: 20pt;">github</h1>
-            </div>
+  <div class = "column">
+    <div class = "reserve">
+      <div class = "reserve-inner">
+        <div class = "reserve-front">
+          <h1 style = "font-family: Comic Sans MS; padding: 100px;">Reserve3D</h1>
+        </div>
+        <div class = "reserve-back">
+          <p style = "font-family: Comic Sans MS; padding: 25px;">A reservation system for 3D printers on campus for Dr. Pamela Dickrell</p>
+          <img style = "padding: 0px" src = "pictures/node.png" alt = node height = 80px width = 80px>
+          <img style = "padding: 0px" src = "pictures/express.png" alt = express height = 80px width = 80px>
+          <div style = "font-family: Comic Sans MS; padding: 5px;">
+            <form action = "">
+              <button class = "reservecode" type = "submit">See Code</button>
+            </form>
           </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class = "column">
+    <div class = "local">
+      <div class = "local-inner">
+        <div class = "local-front">
+          <h1 style = "font-family: Comic Sans MS; padding: 100px;">Local</h1>
+        </div>
+        <div class = "local-back">
+          <p style = "font-family: Comic Sans MS; padding: 25px;">A website that allows travelers to connect with the locals of a city</p>
+          <img style = "padding: 0px" src = "pictures/python.png" alt = python height = 80px width = 80px>
+          <img style = "padding: 0px" src = "pictures/html.png" alt = html height = 80px width = 80px>
+          <img style = "padding: 0px" src = "pictures/css.png" alt = css height = 80px width = 80px>
+          <div style = "font-family: Comic Sans MS; padding: 5px;">
+            <a class="buttons">
+            <form action = "http://localll.appspot.com/">
+              <button class = "localdemo" type = "submit">Demo</button>
+            </form></a>
+
+            <a class="buttons">
+            <form action = "https://github.com/chancethescholar/local">
+              <button class = "localcode" type = "submit">See Code</button>
+            </form></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class = "column" style = "padding-top: 100px">
+    <div class = "bookit">
+      <div class = "bookit-inner">
+        <div class = "bookit-front">
+          <h1 style = "font-family: Comic Sans MS; padding: 100px;">bookit</h1>
+        </div>
+        <div class = "bookit-back">
+          <p style = "font-family: Comic Sans MS; padding: 25px;">A book recommendation web application</p>
+          <img style = "padding: 0px" src = "pictures/python.png" alt = python height = 80px width = 80px>
+          <img style = "padding: 0px" src = "pictures/html.png" alt = html height = 80px width = 80px>
+          <img style = "padding: 0px" src = "pictures/css.png" alt = css height = 80px width = 80px>
+          <div style = "font-family: Comic Sans MS; padding: 5px;">
+            <form action = "https://github.com/chancethescholar/bookit">
+              <button class = "bookitcode" type = "submit">See Code</button>
+            </form>
+          </div><br><br><br>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    <!--
+    <div class = "home" style = "max-width" id = "home">
+    </div>
+
+    <div class = "about" style = "max-width" id = "about">
+    </div>
+
+    <div class = "projects" style = "max-width" id = "projects">
+
+      <img src = "pictures/projects.png" height = "100%" alt = "software" usemap = "#softmap"/>
+        <map name = "softmap">
+          <area shape = "rect" coords = "180,290,630,740" href = "software.html">
+          <area shape = "rect" coords = "865,290,1320,740" href = "other.html">
+        </map>
+
 
     </div>
+-->
 
   </header>
 </body>
